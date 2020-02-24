@@ -1,0 +1,166 @@
+/*h1 {
+	color:red;
+}*/
+body {
+	background: url("https://wallpaperaccess.com/full/398927.jpg") repeat center/cover;
+	height: 100vh;
+	font-family: serif;
+
+}
+
+/*.backpic {
+	position: relative;
+
+}
+
+.backpic img{
+	position: absolute;
+	left:0;
+	right:0;
+	width: 100%;
+	height:auto;
+	opacity:0.6;
+
+}*/
+
+#top1 {
+
+	text-align:center;
+	color: rgb(200, 133, 9);
+	font-size: 50px;
+	
+}
+
+#top{
+	color:rgb(186, 133, 9);
+}
+
+#uni{
+font-size: 1.3em;
+
+
+}
+
+.infoset {
+
+display: flex;
+flex-direction: column;
+
+
+margin:15px;
+
+text-align:center;
+
+align-items:center;
+/*justify-content: center;*/
+
+}
+
+
+
+.set {
+background-color: rgb(41, 148, 255);
+opacity: 0.6;
+font-size: 16px ;
+color: white;
+text-align: center;
+border-radius: 95%;
+border: 1px solid black;
+margin: 5px;
+padding: 5px;
+align-items:center;
+transition: 500ms ease;
+/*justify-content: center;*/
+}
+
+.infoset:hover {
+padding: : 20px;
+	}
+
+.subtitle{
+	text-decoration: underline;
+	color: rgb(200, 153, 29);
+	text-align: center;
+	transition: padding 500ms ease;
+}
+.subtitle:hover{
+	padding: 5px;
+
+}
+
+.para-text{
+	text-align: center;
+	font-size:1.1em;
+
+}
+
+div {text-align: center;
+}
+ul {
+	margin:0;
+	padding:0;
+	text-align: center;
+	list-style: none;
+
+}
+
+.formal{
+	
+}
+
+.formal-in{
+
+	margin:5px;
+	/*padding can be used at top right bottom left: 
+	margine top/bottom left/right*/
+}
+
+#firstpic{
+	display:block;
+	border-radius: 70%;
+	width: 190px;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.anime{
+	animation-name: title;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+
+}
+.lastpic {
+    animation-name: piclastt;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+
+}
+
+@keyframes title {
+	0% {
+		color: rgb(200, 133, 9);
+	    font-size: 50px;
+	}
+	50% {
+		color: rgb(110, 103, 9);
+	    font-size: 55px;
+	
+	}
+
+@keyframes piclastt {
+	0% {
+		display:block;
+	border-radius: 70%;
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto
+	}
+	50% {
+		display:block;
+	border-radius: 70%;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto
+	}
+	
+}
